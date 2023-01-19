@@ -1,0 +1,5 @@
+{
+  "service_name" : "S3",
+  "regex" : "^(?!(^xn--|.+-s3alias$))^[a-z0-9][a-z0-9-]{1,61}[a-z0-9]$",
+  "description" : "Use only letters, numbers, hyphens, or underscores with no spaces."
+}

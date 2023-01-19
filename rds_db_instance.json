@@ -1,0 +1,5 @@
+{
+    "service_name" : "RDS DB Instance",
+    "regex" : "^$|^[a-zA-Z]{1}(?:-?[a-zA-Z0-9]){0,62}$",
+    "description" : "This is test"
+}

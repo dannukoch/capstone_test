@@ -1,0 +1,5 @@
+{
+    "service_name" : "ECS Cluster",
+    "regex" : "^[a-zA-Z0-9_-]{1,255}$",
+    "description" : "There can be a maximum of 255 characters. The valid characters are letters (uppercase and lowercase), numbers, hyphens, and underscores."
+}
