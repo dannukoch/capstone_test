@@ -1,0 +1,13 @@
+{
+    "type_name" : "AWS::IAM::User",
+    "plain_english_name" : "IAM user",
+    "pattern_in_registry" : false,
+    "registry_pattern" : "",
+    "custom_pattern" : "^[a-zA-Z0-9+=,\\.@_-]{1,64}",
+    "custom_pattern2" : "",
+    "url_documentation" : "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html?icmpid=docs_iam_console AND https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html",
+    "rule_plain_english" : "User names can be a combination of up to 64 letters, digits, and these characters: plus (+), equal (=), comma (,), period (.), at sign (@), underscore (_), and hyphen (-). Names must be unique within an account. They are not distinguished by case. For example, you cannot create two users named TESTUSER and testuser.",
+}
+
+
+
