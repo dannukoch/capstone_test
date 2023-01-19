@@ -1,0 +1,15 @@
+{
+    "type_name" : "AWS::S3::Bucket",
+    "plain_english_name" : "S3 bucket",
+    "pattern_in_registry" : true,
+    "registry_pattern" : "",
+    "custom_pattern" : "(?!(^xn--|.+-s3alias$))^[a-z0-9][a-z0-9-]{1,61}[a-z0-9]$",
+    "custom_pattern2" : "(?!(^((2(5[0-5]|[0-4][0-9])|[01]?[0-9]{1,2})\\.){3}(2(5[0-5]|[0-4][0-9])|[01]?[0-9]{1,2})$|^xn--|.+-s3alias$))^[a-z0-9][a-z0-9.-]{1,61}[a-z0-9]$ ",
+    "url_documentation" : "https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html",
+    "rule_plain_english" : "",
+    "custom_pattern_source" : "https://stackoverflow.com/questions/50480924/regex-for-s3-bucket-name",
+    "name_changeable_after_creation" : false
+}
+
+
+
